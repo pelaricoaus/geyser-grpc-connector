@@ -95,7 +95,7 @@ impl GeyserFilter {
             SubscribeRequestFilterBlocks {
                 account_include: Default::default(),
                 include_transactions: Some(true),
-                include_accounts: Some(false),
+                include_accounts: Some(true),
                 include_entries: Some(false),
             },
         );
